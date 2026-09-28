@@ -1,0 +1,8 @@
+[project]
+name = "public-ops"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "公共活动运营平台"
+
+[project.scripts]
+public-ops = "public_ops.cli:main"
